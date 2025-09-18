@@ -1,0 +1,153 @@
+{
+  "personal": {
+    "name": "Alex Chen",
+    "title": "Full-Stack Developer & UI/UX Designer",
+    "bio": "Passionate full-stack developer with 5+ years of experience creating elegant, user-centered digital solutions. I specialize in modern web technologies and love bringing creative ideas to life through code.",
+    "location": "San Francisco, CA",
+    "email": "alex.chen@example.com",
+    "phone": "+1 (555) 123-4567",
+    "avatar": "/images/profile-avatar.jpeg",
+    "social": {
+      "github": "https://github.com/alexchen",
+      "linkedin": "https://linkedin.com/in/alexchen",
+      "twitter": "https://twitter.com/alexchen",
+      "portfolio": "https://alexchen.dev"
+    }
+  },
+  "about": {
+    "summary": "I'm a versatile full-stack developer who thrives on creating innovative digital experiences. With a strong foundation in both frontend and backend technologies, I bring ideas from conception to deployment with attention to detail and user experience.",
+    "experience": [
+      {
+        "company": "TechCorp Solutions",
+        "position": "Senior Full-Stack Developer",
+        "duration": "2022 - Present",
+        "description": "Lead development of enterprise web applications using React, Node.js, and cloud technologies. Collaborated with cross-functional teams to deliver scalable solutions for Fortune 500 clients."
+      },
+      {
+        "company": "StartupXYZ",
+        "position": "Frontend Developer",
+        "duration": "2021 - 2022",
+        "description": "Built responsive web applications and mobile-first interfaces. Implemented modern UI/UX designs and optimized performance for high-traffic applications."
+      },
+      {
+        "company": "Digital Agency Pro",
+        "position": "Junior Developer",
+        "duration": "2020 - 2021",
+        "description": "Developed custom websites and web applications for diverse clients. Gained experience in multiple technologies and agile development methodologies."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "University of California, Berkeley",
+        "year": "2020",
+        "gpa": "3.8/4.0"
+      }
+    ],
+    "skills": {
+      "frontend": ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Framer Motion", "Three.js"],
+      "backend": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "Redis"],
+      "tools": ["Git", "Docker", "AWS", "Vercel", "Figma", "VS Code", "Postman"],
+      "design": ["UI/UX Design", "Responsive Design", "Accessibility", "Design Systems", "Prototyping"]
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "EcoTracker Dashboard",
+      "description": "A comprehensive environmental tracking platform that helps organizations monitor and reduce their carbon footprint through interactive data visualizations and real-time analytics.",
+      "image": "/images/project1.png",
+      "technologies": ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL", "AWS"],
+      "features": [
+        "Real-time environmental data tracking",
+        "Interactive charts and graphs",
+        "Custom reporting and analytics",
+        "Multi-tenant architecture"
+      ],
+      "liveUrl": "https://ecotracker-demo.vercel.app",
+      "githubUrl": "https://github.com/alexchen/ecotracker",
+      "category": "Web Application"
+    },
+    {
+      "id": 2,
+      "title": "FitLife Mobile App",
+      "description": "A React Native fitness tracking application with personalized workout plans, nutrition tracking, and social features to help users achieve their health goals.",
+      "image": "/images/project2.jpeg",
+      "technologies": ["React Native", "TypeScript", "Firebase", "Redux", "Expo"],
+      "features": [
+        "Personalized workout recommendations",
+        "Nutrition and calorie tracking",
+        "Social challenges and leaderboards",
+        "Progress analytics and insights"
+      ],
+      "liveUrl": "https://fitlife-app.com",
+      "githubUrl": "https://github.com/alexchen/fitlife-app",
+      "category": "Mobile Application"
+    },
+    {
+      "id": 3,
+      "title": "ShopSmart E-commerce",
+      "description": "A modern e-commerce platform built with Next.js and Stripe integration, featuring advanced search, personalized recommendations, and seamless checkout experience.",
+      "image": "/images/project3.png",
+      "technologies": ["Next.js", "React", "Stripe", "Prisma", "Tailwind CSS", "Vercel"],
+      "features": [
+        "Advanced product search and filtering",
+        "Personalized product recommendations",
+        "Secure payment processing",
+        "Admin dashboard and analytics"
+      ],
+      "liveUrl": "https://shopsmart-demo.com",
+      "githubUrl": "https://github.com/alexchen/shopsmart",
+      "category": "E-commerce"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AWS Certified Solutions Architect",
+      "description": "Professional certification demonstrating expertise in designing distributed systems on AWS",
+      "year": "2023",
+      "icon": "award"
+    },
+    {
+      "title": "Top 1% on Stack Overflow",
+      "description": "Recognized contributor with over 50k reputation points helping developers worldwide",
+      "year": "2023",
+      "icon": "trophy"
+    },
+    {
+      "title": "Hackathon Winner - TechCrunch Disrupt",
+      "description": "First place winner for innovative climate tech solution at major tech conference",
+      "year": "2022",
+      "icon": "star"
+    },
+    {
+      "title": "Open Source Contributor",
+      "description": "Active contributor to major open-source projects including React and Next.js ecosystem",
+      "year": "2021-Present",
+      "icon": "code"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "position": "Product Manager",
+      "company": "TechCorp Solutions",
+      "content": "Alex is an exceptional developer who consistently delivers high-quality solutions. His attention to detail and ability to understand complex requirements make him invaluable to our team.",
+      "rating": 5
+    },
+    {
+      "name": "Michael Rodriguez",
+      "position": "CEO",
+      "company": "StartupXYZ",
+      "content": "Working with Alex was a game-changer for our startup. He brought our vision to life with clean, scalable code and delivered ahead of schedule. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Emily Chen",
+      "position": "Design Lead",
+      "company": "Digital Agency Pro",
+      "content": "Alex has a rare combination of technical skills and design sensibility. He transforms designs into pixel-perfect, performant applications that users love.",
+      "rating": 5
+    }
+  ]
+}

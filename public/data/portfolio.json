@@ -1,152 +1,158 @@
 {
   "personal": {
-    "name": "Alex Chen",
-    "title": "Full-Stack Developer & UI/UX Designer",
-    "bio": "Passionate full-stack developer with 5+ years of experience creating elegant, user-centered digital solutions. I specialize in modern web technologies and love bringing creative ideas to life through code.",
-    "location": "San Francisco, CA",
-    "email": "alex.chen@example.com",
-    "phone": "+1 (555) 123-4567",
-    "avatar": "/images/profile-avatar.jpeg",
+    "name": "Appugouda B Patil",
+    "title": "AWS Cloud Solutions Architect",
+    "bio": "Seasoned AWS Solutions Architect with 17+ years of experience designing and delivering cloud-native, serverless, and event-driven architectures across AWS and hybrid environments. Expert in Well-Architected Framework, cost optimization, multi-region deployments, and digital transformation solutions.",
+    "location": "Bengaluru, India",
+    "email": "appugouda.architect@gmail.com",
+    "phone": "+91-7019432993",
+    "avatar": "/images/profile-avatar.png",
     "social": {
-      "github": "https://github.com/alexchen",
-      "linkedin": "https://linkedin.com/in/alexchen",
-      "twitter": "https://twitter.com/alexchen",
-      "portfolio": "https://alexchen.dev"
+      "github": "https://github.com/appugouda-architect",
+      "linkedin": "https://linkedin.com/in/appugouda-b-patil",
+      "twitter": "",
+      "portfolio": ""
     }
   },
   "about": {
-    "summary": "I'm a versatile full-stack developer who thrives on creating innovative digital experiences. With a strong foundation in both frontend and backend technologies, I bring ideas from conception to deployment with attention to detail and user experience.",
+    "summary": "I am a results-driven AWS Solutions Architect with deep expertise in building scalable, fault-tolerant, and secure systems using AWS-native and hybrid architectures. I specialize in cloud migration, event-driven and serverless solutions, stakeholder engagement, and leading cross-functional teams to deliver business-aligned, cost-optimized architectures.",
     "experience": [
       {
-        "company": "TechCorp Solutions",
-        "position": "Senior Full-Stack Developer",
-        "duration": "2022 - Present",
-        "description": "Lead development of enterprise web applications using React, Node.js, and cloud technologies. Collaborated with cross-functional teams to deliver scalable solutions for Fortune 500 clients."
+        "company": "Freelance",
+        "position": "AWS Solutions Architect / Consultant",
+        "duration": "Dec 2023 - Present",
+        "description": "Delivered scalable and secure AWS solutions for Education, Retail, and Location-Based Services clients, achieving 35% cost savings. Implemented RESTful APIs, advanced IAM security, and mentored junior architects toward AWS certifications."
       },
       {
-        "company": "StartupXYZ",
-        "position": "Frontend Developer",
-        "duration": "2021 - 2022",
-        "description": "Built responsive web applications and mobile-first interfaces. Implemented modern UI/UX designs and optimized performance for high-traffic applications."
+        "company": "Goavega Software Solutions Pvt. Ltd.",
+        "position": "Technical Architect",
+        "duration": "May 2017 - Nov 2023",
+        "description": "Led cloud transformation for Healthcare and EduTech clients, designed serverless data workflows, identity verification systems, and security-compliant architectures. Managed 15+ member cross-functional teams and boosted go-to-market by 30% through platform innovation."
       },
       {
-        "company": "Digital Agency Pro",
-        "position": "Junior Developer",
-        "duration": "2020 - 2021",
-        "description": "Developed custom websites and web applications for diverse clients. Gained experience in multiple technologies and agile development methodologies."
+        "company": "Calpion Software Tech Pvt. Ltd.",
+        "position": "Technology Specialist",
+        "duration": "Mar 2013 - May 2017",
+        "description": "Modernized logistics platforms with cloud-native patterns, reducing operational costs by 40%. Established CI/CD pipelines with AWS CodePipeline and Docker, cutting release cycles by 30% while ensuring business alignment."
+      },
+      {
+        "company": "Mindtree Ltd.",
+        "position": "Senior Software Engineer",
+        "duration": "Jun 2007 - Nov 2011",
+        "description": "Executed AWS cloud-native prototypes, built mobile-first POCs, and delivered full lifecycle development for enterprise applications. Recognized with the Best Techwork Award for 'Outlook Meeting Manager' project."
       }
     ],
     "education": [
       {
-        "degree": "Bachelor of Science in Computer Science",
-        "school": "University of California, Berkeley",
-        "year": "2020",
-        "gpa": "3.8/4.0"
+        "degree": "Master of Computer Applications",
+        "school": "B.M.S. College of Engineering, Bengaluru (Visvesvaraya Technological University)",
+        "year": "2007",
+        "gpa": "74.05%"
       }
     ],
     "skills": {
-      "frontend": ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Framer Motion", "Three.js"],
-      "backend": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "Redis"],
-      "tools": ["Git", "Docker", "AWS", "Vercel", "Figma", "VS Code", "Postman"],
-      "design": ["UI/UX Design", "Responsive Design", "Accessibility", "Design Systems", "Prototyping"]
+      "architecture": ["Microservices", "Serverless", "Event-Driven", "Well-Architected Framework","Domain-Driven Design (DDD)", "Multi-Region DR", "Zero Trust Security"],
+      "frontend": ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Aceternity UI", "Framer Motion"],
+      "backend": ["Node.js", "NestJS", "Express.js", "Python", "RESTful APIs"],
+      "tools": ["AWS", "Docker", "GitHub Actions", "Terraform", "CloudWatch", "Nginx", "Postman", "Jira"],
+      "design": ["Responsive Design","Design Systems", "Prototyping"],
+      "databases": ["PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Redis"]
+
     }
   },
   "projects": [
     {
       "id": 1,
-      "title": "EcoTracker Dashboard",
-      "description": "A comprehensive environmental tracking platform that helps organizations monitor and reduce their carbon footprint through interactive data visualizations and real-time analytics.",
+      "title": "EduTech Identity Verification System",
+      "description": "Designed and implemented a secure user onboarding and RBAC system using AWS Cognito, Lambda, API Gateway, and S3, improving onboarding efficiency by 60%.",
       "image": "/images/project1.png",
-      "technologies": ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL", "AWS"],
+      "technologies": ["AWS Cognito", "Lambda", "API Gateway", "S3"],
       "features": [
-        "Real-time environmental data tracking",
-        "Interactive charts and graphs",
-        "Custom reporting and analytics",
-        "Multi-tenant architecture"
+        "Role-based access control (RBAC)",
+        "Secure authentication and authorization",
+        "Serverless and scalable design"
       ],
-      "liveUrl": "https://ecotracker-demo.vercel.app",
-      "githubUrl": "https://github.com/alexchen/ecotracker",
-      "category": "Web Application"
+      "liveUrl": "",
+      "githubUrl": "",
+      "category": "Cloud Security"
     },
     {
       "id": 2,
-      "title": "FitLife Mobile App",
-      "description": "A React Native fitness tracking application with personalized workout plans, nutrition tracking, and social features to help users achieve their health goals.",
+      "title": "Serverless Data Integration Workflow",
+      "description": "Automated ETL pipeline leveraging AWS Step Functions, Glue, Lambda, and S3, achieving 70% cost reduction and improved operational efficiency.",
       "image": "/images/project2.jpeg",
-      "technologies": ["React Native", "TypeScript", "Firebase", "Redux", "Expo"],
+      "technologies": ["AWS Glue", "Step Functions", "Lambda", "S3"],
       "features": [
-        "Personalized workout recommendations",
-        "Nutrition and calorie tracking",
-        "Social challenges and leaderboards",
-        "Progress analytics and insights"
+        "Automated ETL pipeline",
+        "Data deduplication",
+        "70% operational cost savings"
       ],
-      "liveUrl": "https://fitlife-app.com",
-      "githubUrl": "https://github.com/alexchen/fitlife-app",
-      "category": "Mobile Application"
+      "liveUrl": "",
+      "githubUrl": "",
+      "category": "Data Engineering"
     },
     {
       "id": 3,
-      "title": "ShopSmart E-commerce",
-      "description": "A modern e-commerce platform built with Next.js and Stripe integration, featuring advanced search, personalized recommendations, and seamless checkout experience.",
+      "title": "Gig-Work Platform",
+      "description": "Directed cross-functional teams to build a scalable gig-work platform from scratch, improving time-to-market by 30% and enabling high availability with AWS cloud-native services.",
       "image": "/images/project3.png",
-      "technologies": ["Next.js", "React", "Stripe", "Prisma", "Tailwind CSS", "Vercel"],
+      "technologies": ["AWS", "Node.js", "React.js", "PostgreSQL"],
       "features": [
-        "Advanced product search and filtering",
-        "Personalized product recommendations",
-        "Secure payment processing",
-        "Admin dashboard and analytics"
+        "Multi-tenant support",
+        "Cloud-native and scalable design",
+        "Cross-functional collaboration"
       ],
-      "liveUrl": "https://shopsmart-demo.com",
-      "githubUrl": "https://github.com/alexchen/shopsmart",
-      "category": "E-commerce"
+      "liveUrl": "",
+      "githubUrl": "",
+      "category": "Web Application"
     }
   ],
   "achievements": [
     {
-      "title": "AWS Certified Solutions Architect",
-      "description": "Professional certification demonstrating expertise in designing distributed systems on AWS",
+      "title": "AWS Certified Solutions Architect - Associate",
+      "description": "Validated expertise in designing and implementing distributed systems on AWS.",
       "year": "2023",
       "icon": "award"
     },
     {
-      "title": "Top 1% on Stack Overflow",
-      "description": "Recognized contributor with over 50k reputation points helping developers worldwide",
+      "title": "AWS Certified Cloud Practitioner",
+      "description": "Demonstrated foundational AWS knowledge covering core services, billing, and security concepts.",
       "year": "2023",
-      "icon": "trophy"
+      "icon": "certificate"
     },
     {
-      "title": "Hackathon Winner - TechCrunch Disrupt",
-      "description": "First place winner for innovative climate tech solution at major tech conference",
-      "year": "2022",
+      "title": "Best Mentor Award",
+      "description": "Recognized for mentoring junior engineers and accelerating their AWS certification readiness at Goavega Software Solutions.",
+      "year": "2018",
       "icon": "star"
     },
     {
-      "title": "Open Source Contributor",
-      "description": "Active contributor to major open-source projects including React and Next.js ecosystem",
-      "year": "2021-Present",
-      "icon": "code"
+      "title": "Best Techwork Award",
+      "description": "Awarded for 'Outlook Meeting Manager' project at Mindtree Ltd.",
+      "year": "2008-2009",
+      "icon": "trophy"
     }
   ],
   "testimonials": [
     {
-      "name": "Sarah Johnson",
-      "position": "Product Manager",
-      "company": "TechCorp Solutions",
-      "content": "Alex is an exceptional developer who consistently delivers high-quality solutions. His attention to detail and ability to understand complex requirements make him invaluable to our team.",
+      "name": "Engineering Manager",
+      "position": "Healthcare Client",
+      "company": "Goavega Software Solutions",
+      "content": "Appugouda delivered highly secure and scalable AWS solutions, reducing costs while improving system reliability. His leadership and architectural vision were key to our success.",
       "rating": 5
     },
     {
-      "name": "Michael Rodriguez",
-      "position": "CEO",
-      "company": "StartupXYZ",
-      "content": "Working with Alex was a game-changer for our startup. He brought our vision to life with clean, scalable code and delivered ahead of schedule. Highly recommended!",
+      "name": "CEO",
+      "position": "EduTech Startup",
+      "company": "Freelance Engagement",
+      "content": "Appugouda’s AWS-native architecture accelerated our product launch and enabled significant revenue growth. His ability to mentor our engineers made a long-term impact.",
       "rating": 5
     },
     {
-      "name": "Emily Chen",
-      "position": "Design Lead",
-      "company": "Digital Agency Pro",
-      "content": "Alex has a rare combination of technical skills and design sensibility. He transforms designs into pixel-perfect, performant applications that users love.",
+      "name": "CTO",
+      "position": "Logistics Client",
+      "company": "Calpion Software Tech",
+      "content": "He modernized our legacy systems into cloud-native platforms, reducing costs by 40% and streamlining operations. A true partner in digital transformation.",
       "rating": 5
     }
   ]
