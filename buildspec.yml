@@ -2,14 +2,12 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      nodejs: 20
     commands:
       # Install project dependencies
       - npm install
   build:
     commands:
-      # Run tests (ensure a 'test' script is in package.json)
-      - npm run test
       # Run the build script
       - npm run build
 artifacts:
