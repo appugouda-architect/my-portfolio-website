@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Error — Architect With Appu</title>
+  <style>
+    /* ========== Theme / Brand Variables ========== */
+    :root {
+      /* Replace these with your exact brand / site colors */
+      --bg: #1a1a1a;               /* very dark background */
+      --surface: #222222;          /* surface or “card” background */
+      --text-main: #f5f5f5;         /* main text color */
+      --text-muted: #aaaaaa;        /* lighter / muted text */
+      --accent: #66d1fa;            /* accent / highlight color */
+      --accent-dark: #3fa9f5;       /* alternate accent shade */
+      --radius: 12px;
+      --shadow: rgba(0, 0, 0, 0.4);
+      --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background-color: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: 0 8px 24px var(--shadow);
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .illustration {
+      flex: 0 0 160px;
+      background: #111; /* subtle darker block */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .illustration svg {
+      width: 80%;
+      height: auto;
+      stroke: var(--accent);
+    }
+
+    .content {
+      padding: 32px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h1 {
+      margin: 0 0 12px 0;
+      font-size: 2em;
+      line-height: 1.2;
+    }
+
+    p.description {
+      margin: 0 0 24px 0;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .meta {
+      font-size: 0.9em;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      padding: 10px 16px;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .btn-primary {
+      background-color: var(--accent);
+      color: var(--bg);
+    }
+    .btn-primary:hover {
+      background-color: var(--accent-dark);
+    }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--text-muted);
+      color: var(--text-muted);
+    }
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .error-details {
+      margin-top: auto;
+      font-family: monospace;
+      font-size: 0.85em;
+      color: var(--text-muted);
+      background: rgba(255,255,255,0.05);
+      padding: 12px;
+      border-radius: var(--radius);
+      display: none; /* hidden by default, show when present */
+      overflow-x: auto;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+      .illustration {
+        flex: 0 0 auto;
+        padding: 24px;
+      }
+      .content {
+        padding: 24px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="illustration" aria-hidden="true">
+      <!-- Minimal SVG / Icon -->
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="8" y1="12" x2="16" y2="12" />
+        <line x1="12" y1="8" x2="12" y2="16" />
+      </svg>
+    </div>
+    <div class="content">
+      <h1>Uh oh — an error occurred</h1>
+      <p class="description">
+        The page you were looking for has run into a problem. We’re sorry for the inconvenience.
+        You can go back to the homepage, try again, or use the error info below to report this issue.
+      </p>
+
+      <div class="meta">
+        <div>Status: <strong id="status">—</strong></div>
+        <div>Time: <span id="timestamp">—</span></div>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn-primary" id="btn-home">Home</button>
+        <button class="btn btn-ghost" id="btn-retry">Retry</button>
+        <button class="btn btn-ghost" id="btn-back">Back</button>
+      </div>
+
+      <div class="error-details" id="details"></div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      const params = new URLSearchParams(window.location.search);
+      const status = params.get('status') || params.get('code') || '404';
+      const message = params.get('message') || '';
+
+      document.getElementById('status').textContent = status;
+      document.getElementById('timestamp').textContent = new Date().toLocaleString();
+
+      if (message) {
+        const d = document.getElementById('details');
+        d.style.display = 'block';
+        d.textContent = message;
+      }
+
+      document.getElementById('btn-home').onclick = () => {
+        window.location.href = '/';
+      };
+      document.getElementById('btn-retry').onclick = () => {
+        window.location.reload();
+      };
+      document.getElementById('btn-back').onclick = () => {
+        window.history.back();
+      };
+    })();
+  </script>
+</body>
+</html>
