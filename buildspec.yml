@@ -5,7 +5,9 @@ phases:
       nodejs: 20
     commands:
       # Install project dependencies
-      - npm install
+      - node -v
+      - npm -v
+      - npm ci
   build:
     commands:
       # Run the build script
