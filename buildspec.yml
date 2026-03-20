@@ -7,11 +7,12 @@ phases:
       # Install project dependencies
       - node -v
       - npm -v
-      - npm install
+      - npm install pnpm -g
+      - pnpm install
   build:
     commands:
       # Run the build script
-      - npm run build
+      - pnpm run build
 artifacts:
   files:
     - '**/*'
