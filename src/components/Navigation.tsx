@@ -21,7 +21,7 @@ const Navigation: React.FC = () => {
 		{ name: 'Home', href: '#hero', icon: Home },
 		{ name: 'About', href: '#about', icon: User },
 		{ name: 'Projects', href: '#projects', icon: Briefcase },
-		// { name: 'Contact', href: '#contact', icon: Mail },
+		{ name: 'Contact', href: '#contact', icon: Mail },
 	];
 
 	const scrollToSection = (href: string) => {

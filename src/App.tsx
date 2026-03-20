@@ -67,7 +67,7 @@ function App() {
 										<Hero />
 										<About />
 										<Projects />
-										{/* <Contact /> */}
+										<Contact />
 									</main>
 								</motion.div>
 							)}
