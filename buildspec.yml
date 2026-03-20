@@ -1,0 +1,22 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      # Install project dependencies
+      - npm install
+  build:
+    commands:
+      # Run tests (ensure a 'test' script is in package.json)
+      - npm run test
+      # Run the build script
+      - npm run build
+artifacts:
+  files:
+    - '**/*'
+  base-directory: dist
+cache:
+  paths:
+    # Cache node_modules to speed up subsequent builds
+    - 'node_modules/**/*'
