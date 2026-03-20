@@ -21,7 +21,7 @@ const Navigation: React.FC = () => {
 		{ name: 'Home', href: '#hero', icon: Home },
 		{ name: 'About', href: '#about', icon: User },
 		{ name: 'Projects', href: '#projects', icon: Briefcase },
-		{ name: 'Contact', href: '#contact', icon: Mail },
+		// { name: 'Contact', href: '#contact', icon: Mail },
 	];
 
 	const scrollToSection = (href: string) => {
@@ -81,14 +81,14 @@ const Navigation: React.FC = () => {
 								))}
 
 								{/* Theme Toggle */}
-								<motion.button
+								{/* <motion.button
 									onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
 									whileHover={{ scale: 1.05 }}
 									whileTap={{ scale: 0.95 }}
 									className="p-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white/80 hover:text-white transition-colors duration-200"
 								>
 									{theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
-								</motion.button>
+								</motion.button> */}
 							</div>
 						</div>
 

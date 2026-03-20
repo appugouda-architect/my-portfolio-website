@@ -66,7 +66,7 @@ function App() {
 									<main className="relative">
 										<Hero />
 										<About />
-										{/* <Projects /> */}
+										<Projects />
 										{/* <Contact /> */}
 									</main>
 								</motion.div>
