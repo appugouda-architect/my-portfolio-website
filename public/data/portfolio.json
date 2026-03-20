@@ -2,7 +2,7 @@
   "personal": {
     "name": "Appugouda B Patil",
     "title": "AWS Cloud Solutions Architect",
-    "bio": "Seasoned AWS Solutions Architect with 17+ years of experience designing and delivering cloud-native, serverless, and event-driven architectures across AWS and hybrid environments. Expert in Well-Architected Framework, cost optimization, multi-region deployments, and digital transformation solutions.",
+    "bio": "Seasoned AWS Solutions Architect with 18 years of experience designing and delivering cloud-native, serverless, and event-driven architectures across AWS and hybrid environments. Expert in Well-Architected Framework, cost optimization, multi-region deployments, and digital transformation solutions.",
     "location": "Bengaluru, India",
     "email": "appugouda.architect@gmail.com",
     "phone": "+91-7019432993",
@@ -53,7 +53,7 @@
     "skills": {
       "architecture": ["Microservices", "Serverless", "Event-Driven", "Well-Architected Framework","Domain-Driven Design (DDD)", "Multi-Region DR", "Zero Trust Security"],
       "frontend": ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Aceternity UI", "Framer Motion"],
-      "backend": ["Node.js", "NestJS", "Express.js", "Python", "RESTful APIs"],
+      "backend": ["Node.js", "NestJS", "Express.js", "Python", "Java", "RESTful APIs"],
       "tools": ["AWS", "Docker", "GitHub Actions", "Terraform", "CloudWatch", "Nginx", "Postman", "Jira"],
       "design": ["Responsive Design","Design Systems", "Prototyping"],
       "databases": ["PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Redis"]
