@@ -7,7 +7,7 @@ phases:
       # Install project dependencies
       - node -v
       - npm -v
-      - npm ci
+      - npm install
   build:
     commands:
       # Run the build script
