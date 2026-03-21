@@ -46,14 +46,14 @@ const ProjectCard: React.FC<{ project: any; index: number }> = ({
 					<motion.img
 						src={project.image}
 						alt={project.title}
-						className="w-full h-full object-cover"
+						className="w-20 h-20 object-cover p-1"
 						whileHover={{ scale: 1.1 }}
 						transition={{ duration: 0.6 }}
 					/>
 					<div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
 
 					{/* Category Badge */}
-					<div className="absolute top-4 left-4">
+					<div className="absolute top-4 left-24">
 						<div className="flex items-center px-3 py-1 bg-white/20 backdrop-blur-md rounded-full">
 							<CategoryIcon size={14} className="text-white mr-2" />
 							<span className="text-white text-xs font-medium">
