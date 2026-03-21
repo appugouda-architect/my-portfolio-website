@@ -31,21 +31,21 @@ phases:
 
   post_build:
     commands:
-      # - echo "Syncing new build to S3 (removing stale files)..."
+      - echo "Syncing new build to S3 (removing stale files)..."
       
-      # # 1. Upload static assets with long-term caching (hashed files)
-      # - aws s3 sync $BUILD_DIR s3://$S3_BUCKET --delete --exclude "index.html" --cache-control "public,max-age=31536000,immutable"
+      # 1. Upload static assets with long-term caching (hashed files)
+      - aws s3 sync $BUILD_DIR s3://$S3_BUCKET --delete --exclude "index.html" --cache-control "public,max-age=31536000,immutable"
 
       # # 2. Upload index.html separately with no-cache (critical for SPA updates)
       # - aws s3 cp $BUILD_DIR/index.html s3://$S3_BUCKET/index.html --cache-control "no-cache, no-store, must-revalidate"
 
-      # - echo "Creating optimized CloudFront invalidation..."
+      - echo "Creating optimized CloudFront invalidation..."
 
       # Only invalidate entry points instead of full cache (cost-efficient)
-      # - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DIST_ID --paths "/index.html" "/"
+      - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DIST_ID --paths "/index.html" "/"
 
 artifacts:
-  base-directory: dist
+  base-directory: $BUILD_DIR
   files:
     - '**/*'
 cache:
