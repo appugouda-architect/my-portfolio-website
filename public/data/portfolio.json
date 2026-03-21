@@ -93,9 +93,25 @@
     },
     {
       "id": 3,
+      "title": "E-Commerce Platform",
+      "description": "Designed and implemented a full-stack e-commerce platform with a focus on scalability and user experience.",
+      "image": "/images/project3.png",
+      "technologies": ["AWS", "Node.js", "Next.js", "MongoDB"],
+      "features": [
+        "Cloud-native and scalable design",
+        "Responsive and intuitive UI",
+        "Secure user authentication and payment processing",
+        "Modern frontend with Next.js and Tailwind CSS"
+      ],
+      "liveUrl": "",
+      "githubUrl": "",
+      "category": "Web Application"
+    },
+    {
+      "id": 4,
       "title": "Gig-Work Platform",
       "description": "Directed cross-functional teams to build a scalable gig-work platform from scratch, improving time-to-market by 30% and enabling high availability with AWS cloud-native services.",
-      "image": "/images/project3.png",
+      "image": "/images/project4.png",
       "technologies": ["AWS", "Node.js", "React.js", "PostgreSQL"],
       "features": [
         "Multi-tenant support",
