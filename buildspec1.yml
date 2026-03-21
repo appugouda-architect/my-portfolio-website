@@ -1,0 +1,23 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      # Install project dependencies
+      - node -v
+      - npm -v
+      - npm install pnpm -g
+      - pnpm install
+  build:
+    commands:
+      # Run the build script
+      - pnpm run build
+artifacts:
+  files:
+    - '**/*'
+  base-directory: dist
+cache:
+  paths:
+    # Cache node_modules to speed up subsequent builds
+    - 'node_modules/**/*'
